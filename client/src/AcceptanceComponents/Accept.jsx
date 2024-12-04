@@ -143,7 +143,7 @@ function Accept() {
 
           <section className=''>
             <h1 className='font-bold text-xs md:text-xl mb-2 pt-12 text-center'>HOW TO MAKE YOUR CREDIT ACCEPTANCE PAYMENT</h1>
-            <p className=' p-3 text-justify text-xl'>To make a Credit Acceptance payment, simply click the option below, Once your payment is submitted, you should receive a confirmation. For added convenience, consider setting up automatic payments to ensure timely payments every month.</p>
+            <p className=' p-3 text-justify text-xs'>To make a Credit Acceptance payment, simply click the option below, Once your payment is submitted, you should receive a confirmation. For added convenience, consider setting up automatic payments to ensure timely payments every month.</p>
           </section>
         </div>
         </div>
@@ -204,28 +204,28 @@ function Accept() {
               <h1 className='font-semibold md:font-bold text-blue-600 pt-1 text-xl md:text-xl ml-4 mb-5'>CAN I GET A CREDIT ON LOAN?<span className='text-2xl ml-4 md:ml-[390px] lg:ml-[550px] lg:text-3xl'>{movePlus1}</span></h1>
             </div>
             <div className='h-[125px] md:h-[105px] lg:h-[70px] bg-blue-100 mr-4 ml-3 mt-1 duration-1000 overflow-hidden' style={{height:move}}>
-              <h1 className='text-justify ml-1 mr-1 md:text-xl lg:text-2xl p-1'>Yes, we offer loan options for individuals with varying credit backgrounds. While loan terms might differ for those with lower credit scores, we work to provide flexible solutions that match your needs.</h1>
+              <h1 className='text-justify ml-1 mr-1 md:text-xl lg:text-[20px] p-1'>Yes, we offer loan options for individuals with varying credit backgrounds. While loan terms might differ for those with lower credit scores, we work to provide flexible solutions that match your needs.</h1>
             </div>
 
             <div className='h-[60px] lg:h-[50px] md:h-[50px] bg-blue-200 mr-4 ml-3 mt-8'onClick={dd}>
               <h1 className='font-semibold text-blue-600 md:font-bold text-xl md:text-2xl lg:text-xl ml-3 md:ml-4 md:pt-1 mb-5'>HOW IS MY INTEREST RATE DETERMINED?<span className='text-2xl ml-44 md:ml-[190px] lg:ml-[440px] lg:text-3xl'>{movePlus2}</span></h1>
             </div>
             <div className='h-[125px] md:h-[105px] lg:h-[70px] bg-blue-100 mr-4 ml-3 mt-1 duration-1000 overflow-hidden' style={{height:mover}}>
-              <h1 className=' text-justify ml-1 mr-1 md:text-xl lg:text-xl p-1'>Your interest rate is determined based on factors such as your credit score, income, loan type, and term length. Higher credit scores generally result in lower interest rates, while lower scores may have higher rates to offset risk.</h1>
+              <h1 className=' text-justify ml-1 mr-1 md:text-xl lg:text-[20px] p-1'>Your interest rate is determined based on factors such as your credit score, income, loan type, and term length. Higher credit scores generally result in lower interest rates, while lower scores may have higher rates to offset risk.</h1>
             </div>
 
             <div className='md:h-[50px] lg:[50px] h-[60px] bg-blue-200 mr-4 ml-3 mt-10'onClick={aa}>
               <h1 className=' text-blue-600 font-semibold md:font-bold text-xl md:text-xl lg:text-xl ml-3 md:ml-4 md:pt-1 mb-5'>CAN I APPLY FOR A LOAN WITH A CO-SIGNER?<span className='text-2xl ml-[200px] md:ml-[240px] lg:ml-[410px] lg:text-3xl'>{movePlus3}</span></h1>
             </div>
             <div className='h-[130px] md:h-[105px] lg:h-[70px] bg-blue-100 mr-4 ml-3 mt-1 duration-1000 overflow-hidden' style={{height:moves}}>
-              <h1 className='text-justify ml-1 mr-1 md:text-xl lg:text-2xl p-1'>Yes, having a co-signer with a strong credit history can improve your chances of approval and may result in more favorable loan terms. If you’re unable to meet your loan obligations, your co-signer will be responsible for repayment.</h1>
+              <h1 className='text-justify ml-1 mr-1 md:text-xl lg:text-[20px] p-1'>Yes, having a co-signer with a strong credit history can improve your chances of approval and may result in more favorable loan terms. If you’re unable to meet your loan obligations, your co-signer will be responsible for repayment.</h1>
             </div>
 
             <div className='h-[60px] md:h-[50px] lg:h-[50px] bg-blue-200 mr-4 ml-3 mt-8'onClick={bb}>
               <h1 className='text-blue-600 font-semibold md:font-bold text-xl md:text-xl lg:text-xl ml-3 md:ml-4 md:pt-1 mb-5'>HOW DOES MY CREDIT SCORES AFFECT MY LOAN OPTIONS?<span className='text-2xl ml-10 md:ml-[95px] lg:ml-[260px] lg:text-3xl'>{movePlus4}</span></h1>
             </div>
             <div className='h-[120px] ml-3 md:h-[95px] lg:h-[60px] bg-blue-100 mr-4  mt-1 duration-1000 overflow-hidden' style={{height:movest}}>
-              <h1 className=' text-justify ml-1 mr-1 md:text-xl lg:text-2xl p-1'>Yes, we offer loan options for individuals with varying credit backgrounds. While loan terms might differ for those with lower credit scores, we work to provide flexible solutions that match your needs.</h1>
+              <h1 className=' text-justify ml-1 mr-1 text-xs md:text-xs lg:text-xl p-1'>Yes, we offer loan options for individuals with varying credit backgrounds. While loan terms might differ for those with lower credit scores, we work to provide flexible solutions that match your needs.</h1>
             </div>
           </section>
           

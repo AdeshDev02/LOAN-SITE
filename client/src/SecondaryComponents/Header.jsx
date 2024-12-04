@@ -76,11 +76,21 @@ function Header() {
                 <div className='absolute bg-white left-[0px] top-[50px] leading-[3] w-[200px] duration-500 opacity-100   hover:opacity-100  showpage'>
 
                 <ol>
-                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap pagehover' >Personal Loans</li>
-                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>Our Team</li>
-                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>Career</li>
-                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>Customer Reviews</li>
-                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>FAQ</li>
+                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap pagehover' >
+                    <Link to='/personal'> Personal Loans</Link>
+                    </li>
+                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>
+                    <Link to='/team'>Our Team</Link>
+                    </li>
+                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>
+                    <Link to='/career'>Career</Link>
+                    </li>
+                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>
+                    <Link to='/customer'>Customer Reviews</Link>
+                    </li>
+                  <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>
+                    <Link to='/faq'>FAQ</Link>
+                    </li>
                   <li className='text-[rgb(34,69,133)] text-[15px] font-bold hover:bg-[rgb(219,229,246)] hover:text-[rgb(84,137,230)] transition duration-[0.5s] cursor-pointer tracking-wider w-full px-[30px]  whitespace-nowrap'>Error 404</li>
                 </ol>
                 </div>

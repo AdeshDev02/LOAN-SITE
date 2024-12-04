@@ -32,7 +32,6 @@ body{
   background-color: rgb(38,106,225)
 }
 
-
 .loo{
   background-image: url(AcceptanceComponents/accepta.jpg);
   background-size: 100% 100%;
@@ -51,6 +50,11 @@ body{
 
 .lon{
   background-image: url(ContactComponents/loon.jpg);
+  background-size: 100% 100%;
+}
+
+.pics{
+  background-image: url(PersonalComponent/personal.jpg);
   background-size: 100% 100%;
 }
 

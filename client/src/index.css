@@ -53,6 +53,63 @@ body{
   background-image: url(ContactComponents/loon.jpg);
   background-size: 100% 100%;
 }
+.animation-slider{
+  animation: slider 15s infinite;
+}
+
+@keyframes slider {
+
+  0%{
+    background-image: url(HomeComponents/png1.png);
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  50%{
+    background-image: url(HomeComponents/png2.png);
+    transition:  0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  100%{
+    background-image: url(HomeComponents/png1.png);
+    transition:  0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.second-slide{
+  animation: working 15s infinite;
+}
+
+@keyframes working {
+
+  0%{
+    background-image: url(HomeComponents/png3.png);
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  50%{
+    background-image: url(HomeComponents/png4.png);
+    transition:  0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  100%{
+    background-image: url(HomeComponents/png3.png);
+    transition:  0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 
 
 /* Image slides in from the left */

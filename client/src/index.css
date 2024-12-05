@@ -32,7 +32,6 @@ body{
   background-color: rgb(38,106,225)
 }
 
-
 .loo{
   background-image: url(AcceptanceComponents/accepta.jpg);
   background-size: 100% 100%;
@@ -109,6 +108,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
   }
+}
+
+.pics{
+  background-image: url(PersonalComponent/personal.jpg);
+  background-size: 100% 100%;
 }
 
 

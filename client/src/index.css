@@ -58,6 +58,11 @@ body{
   background-size: 100% 100%;
 }
 
+.pg{
+  background-image: url('https://livedemo00.template-help.com/wt_prod-18389/images/bg-header-1920x362.jpg');
+  background-size: 100% 100%;
+}
+
 
 /* Image slides in from the left */
 /* @keyframes slideInLeft {

@@ -4,6 +4,7 @@ import Scroll from './Scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import Slider from "react-slick";
+import { Link } from 'react-router-dom';
 // import { baseUrl } from './config';
 
 
@@ -273,7 +274,9 @@ function Home() {
             <div className='grid place-items-center bg-gradient-to-b from-[rgb(64,129,255)] to-[rgb(126,178,255)] h-fit pb-[40px] transform hover:scale-110 transition-all duration-[1.5s] hover:bg-[rgb(38,106,225)] man'>
               <p className='w-[250px] md:w-[140px] lg:w-[250px] text-[rgb(21,63,139)] text-[20px] font-bold mt-[50px] tracking-wider leading-[25px] mr-[20px] lg:mr-[80px] hover:text-white transition-all duration-[1.5s] manboy'>Need A Personal Loan?</p>
 
-              <button className='bg-[rgb(12,51,121)] text-white py-[10px] px-[25px] whitespace-normal mt-[20px] mr-[150px] md:mr-[40px] lg:mr-[200px] rounded-[10px]'>Apply Now</button>
+              <button className='bg-[rgb(12,51,121)] text-white py-[10px] px-[25px] whitespace-normal mt-[20px] mr-[150px] md:mr-[40px] lg:mr-[200px] rounded-[10px]'>
+                <Link to='/apply'>Apply Now</Link>
+              </button>
             </div>
 
            </div>

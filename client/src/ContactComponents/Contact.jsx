@@ -5,10 +5,12 @@ import loan from './loan.jpg'
 function Contact() {
   return (
     <>
-    <div className='h-[600px] md:h-[300px] lg:h-[300px] mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
-      <h1 className='ml-20 pt-24 font-bold text-xl'>PAGE CONTACT US</h1>
-      <div className='lon'></div>
-    </div>
+      <main className='pg grid justify-center items-center h-[250px] mb-1'>
+          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-white pt-7'>Contact Page</h2>
+          <div className='flex justify-center items-center gap-1'>
+          <h2 className='text-blue-400'>Home /</h2><h2 className='text-white'> Our Contact</h2>
+          </div>
+      </main>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 p-4 mb-4'>
             <div className='h-fit bg-white rounded-[10px] border-[rgb(214,227,249)] border-solid border-[1px] hover:bg-gradient-to-b
            hover:from-[rgb(155,203,249)] hover:to-[rgb(239,246,255)] hover:border-b-[rgb(41,108,225)] hover:border-b-[2px] transition duration-[0.5s] mb-0'>

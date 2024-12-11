@@ -15,6 +15,7 @@ import Team from './PageComponents/OurTeamComponent/Team'
 import Customer from './PageComponents/CustomerReviewComponent/Customer'
 import Career from './PageComponents/CareerComponent/Career'
 import Faq from './PageComponents/FaqComponent/Faq'
+import ApplyNow from './ApplyNow.jsx/ApplyNow'
 
 
 createRoot(document.getElementById('root')).render(
@@ -32,9 +33,10 @@ createRoot(document.getElementById('root')).render(
         <Route path='/accept' element={<Accept/>}/>
         <Route path='/personal' element={<Personal/>}/>
         <Route path='/team' element={<Team/>}/>
-        <Route path='customer' element={<Customer/>}/>
-        <Route path='career' element={<Career/>}/>
-        <Route path='faq' element={<Faq/>}/> 
+        <Route path='/customer' element={<Customer/>}/>
+        <Route path='/career' element={<Career/>}/>
+        <Route path='/faq' element={<Faq/>}/> 
+        <Route path='/apply' element={<ApplyNow/>}/>
        </Routes>
       <Footer/>
     </BrowserRouter>

@@ -113,6 +113,10 @@ function ApplyComp4() {
             <div className='grid mt-2 mr-3 ml-3'>
                 <h1 className='ml-1'>Pin Code*</h1> <input className='w-[360px] p-5 placeholder:text-[10px] focus:outline-none rounded-md text-[13px] bg-slate-100' type="number"  name="" id="" placeholder='Pin Code' required/> 
             </div>
+
+            <div>
+                <h2></h2>
+            </div>
         </form>
       </main>
     </>

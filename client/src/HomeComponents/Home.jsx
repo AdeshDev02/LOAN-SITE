@@ -3,9 +3,23 @@ import Capture from './Capture.png';
 import Scroll from './Scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import ReactSlickWork from '../ReactSlickWork'
+import ReactSlick2 from '../ReactSlick2'
+
+
+
 import Slider from "react-slick";
+
+
+import png1 from '../HomeComponents/png1.png'
+import png2 from '../HomeComponents/png2.png'
+import png3 from '../HomeComponents/png3.png'
+import png4 from '../HomeComponents/png4.png'
+
+
 import { Link } from 'react-router-dom';
 // import { baseUrl } from './config';
+
 
 
 function Home() {
@@ -128,17 +142,32 @@ function Home() {
   }
 
 
-  const settings = {
-    dots: true,
-    fade: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    waitForAnimate: false
-  };
 
+  let [sliderr,setSliderr]=useState([png1,png2])
+  let [count,setCount]=useState(0)
 
+  useEffect(()=>{
+    let createslider = setInterval(() => {
+      setCount((count = count+1) % 2)
+      console.log(count)
+    },3000 );
+    return ()=> clearInterval(createslider)
+
+    
+  },[count])
+
+  let [sliderAgain,setSliderAGain]=useState([png3,png4])
+  let [countAgain,setCountAgain]=useState(0)
+
+  useEffect(()=>{
+    let createslider = setInterval(() => {
+      setCountAgain((countAgain = countAgain+1) % 2)
+      console.log(countAgain)
+    },3000 );
+    return ()=> clearInterval(createslider)
+
+    
+  },[count])
     
   
   return (
@@ -251,6 +280,7 @@ function Home() {
             <img src="https://demo.strongtheme.com/americancredit/wp-content/uploads/sites/4/2021/06/ameioc011.png"  className='w-[90px] md:w-[60px] lg:w-[70px] mt-[20px] ml-[25px] transform hover:scale-75 transition-all duration-[0.5s]'/>
 
             <p className='text-[rgb(38,106,225)] text-[20px] mt-[20px] ml-[25px]'>Business Loan</p>
+            
 
             <p className='text-[rgb(186,141,139)] mt-[20px] ml-[25px] mb-[25px]'>Flexible repayment terms</p>
 
@@ -402,7 +432,6 @@ function Home() {
       </div>
 
       <div className='bg-white h-[900px] md:h-[840px] lg:h-[495px] mt-[150px] grid grid-cols-1 lg:grid-cols-2'>
-        
         <div className='grid grid-cols-1 bg-gray-500 h-fit'>
           <div className='bg-white h-[225px] md:h-[250px] lg:h-[350px]'>
             <p className='text-[rgb(147,150,170)] text-[20px] font-semibold tracking-wider ml-[10px] lg:ml-[70px] mb-[20px]'>OUR MISSION</p>
@@ -427,11 +456,11 @@ function Home() {
         </div>
       </div>
 
-      <div className='h-[1000px] md:h-[450px] lg:h-[450px] mt-[250px] relative z-10 lg:mt-[130px] bg-fuchsia-600 grid grid-cols-1
+      <div className='h-[1150px] md:h-[400px] lg:h-[400px] mt-[250px]  lg:mt-[130px] bg-fuchsia-600 grid grid-cols-1
        md:grid-cols-[35%,65%] lg:grid-cols-[36%,64%]'>
         
         <div className='bg-white h-[300px] md:h-full'>
-          <p className='text-[17px] md:text-[18px] lg:text-[20px] text-[rgb(147,150,154)] ml-[10px] lg:ml-[75px] md:mt-[150px] tracking-wider'>MEET OUR TEAM</p>
+          <p className='text-[17px] md:text-[18px] lg:text-[20px] text-[rgb(147,150,154)] ml-[10px] lg:ml-[75px] md:mt-[100px] tracking-wider'>MEET OUR TEAM</p>
           <p className='text-[rgb(12,51,121)] text-[25px] md:text-[30px] lg:text-[35px] ml-[10px] lg:ml-[75px] font-semibold tracking-wider w-[250px] md:w-[150px] lg:w-[350px]'>Consulting With
           Our Team</p>
           <button className=' text-white text-[18px] tracking-wider py-[15px] px-[45px] rounded-[8px] mt-[25px] md:mt-[40px]  ml-[10px] lg:ml-[75px] bg-[#266AE1] transform hover:scale-110 transition-all duration-[0.5s]  '> <FontAwesomeIcon icon={faPhone} /> Contact Us
@@ -439,15 +468,22 @@ function Home() {
           </button>
         </div>
 
-        <div className='bg-white h-[700px] md:h-[450px] lg:h-[450px] grid grid-cols-1 md:grid-cols-2 lg:pr-[85px] pr-[10px] pl-[10px] md:pl-0'>
+        <div className='bg-white h-[850px] md:h-[400px] lg:h-[400px] grid grid-cols-1 md:grid-cols-2 lg:pr-[85px] pr-[10px] pl-[10px] md:pl-0'>
 
-          <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(179,217,252)] animation-slider'>
-            <div className=''></div>
+          {/* <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(179,217,252)] h-[400px] md:h-[400px] lg:h-[400px]  relative rounded-[10px] '>
+           
+            <img src={sliderr[count]} alt="" className='h-[400px] ml-[35px] md:h-[320px] lg:h-[350px] md:ml-0 md:mt-[50px] lg:ml-[80px] '/>
+            
+           <div className='bg-white h-[80px] w-[190px] relative z-20 bottom-[0px] left-[198px] pt-[25px] pl-[48px]  tracking-wider text-[19px] text-[rgb(12,51,121)] Diesel' >Vin Diesel</div>
           </div>
 
           
-          <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(220,235,252)] mt-[50px] md:mt-0 second-slide'></div>
+          <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(220,235,252)] h-[400px] md:h-[400px] lg:h-[400px] mt-[50px] md:mt-0 rounded-[10px] '>
+          <img src={sliderAgain[countAgain]} alt="" className='h-[400px] ml-[35px] md:h-[320px] lg:h-[350px] md:ml-0 md:mt-[50px] lg:ml-[80px] '/>
+          </div> */}
           
+          <ReactSlickWork/>
+          <ReactSlick2/>
         </div>
 
       </div>

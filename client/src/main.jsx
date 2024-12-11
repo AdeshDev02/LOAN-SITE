@@ -20,8 +20,6 @@ import ApplyNow from './ApplyNow.jsx/ApplyNow'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-   
     <BrowserRouter>
     <Header/>
       <Routes>

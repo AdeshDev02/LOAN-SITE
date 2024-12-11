@@ -6,10 +6,12 @@ import { Link } from 'react-router-dom'
 function Personal() {
   return (
     <>
-    <div className='h-[250px] bg-blue-500 mt-10 grid grid-cols-2 mb-16'>
-        <h1 className='text-xl text-start ml-24 mt-28'>PERSONAL PAGE</h1>
-        {/* <img className='h-[10%] w-[10%]' src={prs} alt="" /> */}
-    </div>
+      <main className='pg grid justify-center items-center h-[250px] mt-10 mb-1'>
+          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-white pt-7'>Personal Page</h2>
+          <div className='flex justify-center items-center gap-1'>
+          <h2 className='text-blue-400'>Home / Page /</h2><h2 className='text-white'> Personal</h2>
+          </div>
+      </main>
 
     <main className='h-[700px] md:h-[700px] lg:h-[660px] lg:ml-10 lg:mr-10 rounded-lg grid grid-rows-[70%,30%] md:grid-cols-2 lg:grid-cols-2'>
       <div className='bg-blue-600'>
@@ -52,7 +54,7 @@ function Personal() {
       </div>
       <div className='bg-blue-300'>
         <h1 className='text-center md:mt-40 mt-10 font-bold text-xl md:text-2xl mb-5'>Personal Loan</h1>
-        <button className='bg-blue-600 text-[15px] border-[2px] ml-[100px] md:ml-[90px] lg:ml-[210px] w-52 p-3 rounded-md transition-all duration-700 hover:scale-90 mb-3'>Check for an offer</button>
+        <button className='bg-blue-600 text-[15px] border-[2px] ml-[100px] md:ml-[90px] lg:ml-[210px] w-52 p-3 font-bold rounded-md transition-all duration-700 hover:scale-90 mb-3'>Click to Apply</button>
         <h1 className='text-center text-[15px] mb-1'>Have Question?</h1>
         <h1 className='text-center text-[15px] hover:text-blue-700'>
           <Link to='/faq'>Visit our FAQ?</Link>

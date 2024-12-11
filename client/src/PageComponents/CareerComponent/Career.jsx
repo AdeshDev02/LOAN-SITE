@@ -9,8 +9,11 @@ const group=[
 function Career() {
   return (
     <>
-      <main className='h-[250px] mt-8 bg-blue-500 mb-5'>
-        <h1 className='pt-28 text-xl ml-24'>PAGE CAREER</h1>
+      <main className='pg grid justify-center items-center mt-10 h-[250px] mb-1'>
+          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-white pt-7'>Career Page</h2>
+          <div className='flex justify-center items-center gap-1'>
+          <h2 className='text-blue-400'>Home / Page /</h2><h2 className='text-white'> Career</h2>
+          </div>
       </main>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mb-5'>

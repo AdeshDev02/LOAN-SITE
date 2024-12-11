@@ -125,15 +125,23 @@ function Accept() {
   
 
   return (
-    <div>
-        <div className='h-[350px] gap-3 p-2 lg:p-2 mb-5 lg:mb-14 mt-3 grid md:grid-cols-2 lg:grid-cols-2'>
+    <>
+      <main className='pg grid justify-center items-center h-[250px] mt-10 mb-1'>
+          <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-white pt-7'>ACCEPTANCE PAGE</h2>
+          <div className='flex justify-center items-center gap-1'>
+          <h2 className='text-blue-400'>Home /</h2><h2 className='text-white'> Acceptance</h2>
+          </div>
+      </main>
+
+
+        {/* <div className='h-[350px] gap-3 p-2 lg:p-2 mb-5 lg:mb-14 mt-3 grid md:grid-cols-2 lg:grid-cols-2'>
           <section className='rounded-lg'>
             <h1 className='font-bold text-xl pt-16 ml-5'>OUR ACCEPTANCE PAYMENT PAGE</h1>
           </section>
           <section className=''>
             <img className='h-[90%] w-[100%]' src={accept} />
           </section>
-        </div>
+        </div> */}
 
         <div className='hidden mt-6 lg:block md:block mb-20'>
         <div className='h-[570px] gap-2 p-4 md:grid-cols-2 grid lg:grid-cols-2'>
@@ -143,7 +151,7 @@ function Accept() {
 
           <section className=''>
             <h1 className='font-bold text-xs md:text-xl mb-2 pt-12 text-center'>HOW TO MAKE YOUR CREDIT ACCEPTANCE PAYMENT</h1>
-            <p className=' p-3 text-justify text-xs'>To make a Credit Acceptance payment, simply click the option below, Once your payment is submitted, you should receive a confirmation. For added convenience, consider setting up automatic payments to ensure timely payments every month.</p>
+            <p className=' p-3 text-justify text-xs lg:text-xl'>To make a Credit Acceptance payment, simply click the option below, Once your payment is submitted, you should receive a confirmation. For added convenience, consider setting up automatic payments to ensure timely payments every month.</p>
           </section>
         </div>
         </div>
@@ -243,7 +251,7 @@ function Accept() {
           <section className='bg-green-500'>
 
           </section>
-        </div>
+        </>
     // </div>
   )
 }

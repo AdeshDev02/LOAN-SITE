@@ -37,17 +37,24 @@ function About() {
 
         <> 
 
+      <main className='pg grid justify-center items-center h-[250px] mt-10 mb-1'>
+        <h2 className='text-xl md:text-2xl lg:text-4xl font-bold text-white pt-7'>ABOUT US</h2>
+        <div className='flex justify-center items-center gap-1'>
+        <h2 className='text-blue-400'>Home /</h2><h2 className='text-white'> About</h2>
+        </div>
+      </main>
+
         <div className='mb-8 gap-1 h-[480px] md:h-[380px] lg:h-[370px] mt-10 grid grid-cols-1 md:grid-cols-2'>
             <section className=''>  
               <h1 className='pt-6 ml-4 text-xl mb-3 text-black'>OUR ABOUT PAGE</h1>
-              <h2 className='ml-2 mr-2 text-justify text-[15px] text-black'>Welcome to Bitxbase Loan, where we make borrowing simple, secure, and tailored to your needs. We believe in empowering our clients with transparent, accessible loan options that help turn goals into reality. Whether you’re looking to finance a new home, start a business, or consolidate debt, our team is dedicated to finding the right solution for you.</h2>
+              <h2 className='ml-5 mr-2 text-justify text-[17px] text-black'>Welcome to Bitxbase Loan, where we make borrowing simple, secure, and tailored to your needs. We believe in empowering our clients with transparent, accessible loan options that help turn goals into reality. Whether you’re looking to finance a new home, start a business, or consolidate debt, our team is dedicated to finding the right solution for you.</h2>
             </section>
             <section>
               <img className='h-full w-[100%] lg:h-[80%] lg:w-full' src={loan3}/>
             </section>
         </div>
 
-        <div className='h-[250px] md:h-[300px] lg:h-[100px] lg:mb-[450px] mb-40 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[60%,40%]'>
+        <div className='h-[250px] md:h-[300px] lg:h-[100px] lg:mb-[480px] mb-40 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-[60%,40%]'>
             <section className=''>
                 <div className='p-2'>
                 <Slider {...settings}>
@@ -81,11 +88,11 @@ function About() {
             <section className=''>
                 <h1 className='font-semibold text-xs pt-16 ml-2 md:text-[15px] lg:text-xl'>WHO WE ARE</h1>
                 <h2 className='font-bold text-xs md:text-xl lg:text-xl ml-3 text-[rgb(34,69,133)] mb-4'>Provide Excellent service</h2>
-                <h2 className='ml-2 mr-3 text-justify text-xs md:text-[15px] lg:text-[16px]'>At BitxBase Loan Company, we pride ourselves on providing exceptional loan services tailored to meet the unique needs of each client. With a focus on transparency, flexibility, and personal support, we strive to make borrowing an empowering experience, not just a transaction. Our team of dedicated professionals brings years of industry expertise to the table, ensuring you receive top-quality guidance, competitive rates, and customized solutions.</h2>
+                <h2 className='ml-2 mr-3 text-justify text-xs md:text-[15px] lg:text-xl'>At BitxBase Loan Company, we pride ourselves on providing exceptional loan services tailored to meet the unique needs of each client. With a focus on transparency, flexibility, and personal support, we strive to make borrowing an empowering experience, not just a transaction. Our team of dedicated professionals brings years of industry expertise to the table, ensuring you receive top-quality guidance, competitive rates, and customized solutions.</h2>
             </section>
         </div>
 
-        <div className='bg-white h-fit mt-[160px] grid grid-cols-1 lg:grid-cols-2'>
+        <div className='bg-white h-fit mt-[190px] lg:mt-16 grid grid-cols-1 lg:grid-cols-2'>
         
         <div className='grid grid-cols-1 bg-gray-500 h-fit'>
           <div className='bg-white h-[225px] md:h-[250px] lg:h-[350px]'>

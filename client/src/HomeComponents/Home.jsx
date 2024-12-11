@@ -4,17 +4,11 @@ import Scroll from './Scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import ReactSlickWork from '../ReactSlickWork'
-import ReactSlick2 from '../ReactSlick2'
-
-
-
-import Slider from "react-slick";
-
-
-import png1 from '../HomeComponents/png1.png'
-import png2 from '../HomeComponents/png2.png'
-import png3 from '../HomeComponents/png3.png'
-import png4 from '../HomeComponents/png4.png'
+import ReactSlick2 from '../ReactSlick2';
+import png1 from '../HomeComponents/png1.png';
+import png2 from '../HomeComponents/png2.png';
+import png3 from '../HomeComponents/png3.png';
+import png4 from '../HomeComponents/png4.png';
 
 
 import { Link } from 'react-router-dom';

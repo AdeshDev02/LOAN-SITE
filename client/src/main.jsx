@@ -19,8 +19,6 @@ import Faq from './PageComponents/FaqComponent/Faq'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-   
     <BrowserRouter>
     <Header/>
       <Routes>

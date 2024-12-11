@@ -52,67 +52,238 @@ body{
   background-image: url(ContactComponents/loon.jpg);
   background-size: 100% 100%;
 }
-.animation-slider{
-  animation: slider 15s infinite;
-}
+/* .animation-slider{
+  animation: slider 6s infinite;
+  border-radius: 10px;
+  background: linear-gradient();
+} */
 
-@keyframes slider {
+/* @keyframes slider {
 
   0%{
     background-image: url(HomeComponents/png1.png);
-    transition: 0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   50%{
     background-image: url(HomeComponents/png2.png);
-    transition:  0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   100%{
     background-image: url(HomeComponents/png1.png);
-    transition:  0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-}
+} */
 
 .second-slide{
-  animation: working 15s infinite;
+  animation: working 5s infinite;
 }
 
-@keyframes working {
+/* @keyframes working {
 
   0%{
     background-image: url(HomeComponents/png3.png);
-    transition: 0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   50%{
     background-image: url(HomeComponents/png4.png);
-    transition:  0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   100%{
     background-image: url(HomeComponents/png3.png);
-    transition:  0.5s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-}
+} */
 
 .pics{
   background-image: url(PersonalComponent/personal.jpg);
   background-size: 100% 100%;
+}
+
+.vin-diesel{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  height: 80px;
+  width: 200px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(12,51,121);
+  animation: slideup 6s infinite;
+}
+
+@keyframes slideup {
+  0%{
+    bottom: -86px;
+    opacity: 0;
+    
+  }
+  50%{
+    bottom: 0;
+    opacity: 1;
+    
+  }
+  60%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+    
+  }
+}
+
+
+.emma-stone{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  height: 80px;
+  width: 200px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(12,51,121);
+  animation: slideagain 6s linear 1s   infinite ;
+}
+
+@keyframes slideagain {
+  0%{
+    bottom: -86px;
+    opacity: 1;
+    
+  }
+  50%{
+    
+    opacity: 1;
+    
+  }
+  60%{
+  
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+    bottom: 0;
+    
+  }
+  100%{
+    opacity: 0;
+    bottom: 0;
+    
+  }
+}
+
+.Diesel{
+ 
+  visibility: hidden;
+}
+.Diesel::before {
+  content: "Vin Diesel";
+  visibility: visible;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  height: 80px;
+  width: 200px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(12,51,121);
+  animation: diesel 3s infinite;
+}
+.Diesel::after {
+  content: "Emma Stone";
+  visibility: visible;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  height: 80px;
+  width: 200px;
+  padding-top: 25px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(12,51,121);
+  animation: emma 3s 3s infinite;
+}
+
+
+@keyframes diesel{
+  0%{
+    bottom: 0;
+    opacity: 0;
+    
+  }
+  100%{
+    bottom: 80px; 
+  }
+
+}
+@keyframes emma{
+  0%{
+    bottom: 0;
+    opacity: 0;
+    
+  }
+  100%{
+    bottom: 80px; 
+  }
+
+}
+
+.mustslide{
+  animation: slide 4s 1s infinite;
+}
+.mustslide:hover{
+  background-color: transparent;
+  border: solid 6px white;
+  transition: 0.5s;
+}
+@keyframes slide {
+  0%{
+    bottom: 0;
+  }
+  100%{
+    bottom: 80px;
+  }
+}
+.anotherslider{
+  animation: sliderr 4s 1s infinite;
+}
+.anotherslider:hover{
+  background-color: transparent;
+  border: solid 6px white;
+  transition: 0.5s;
+}
+@keyframes sliderr {
+  0%{
+    bottom: 0;
+  }
+  100%{
+    bottom: 80px;
+  }
 }
 
 

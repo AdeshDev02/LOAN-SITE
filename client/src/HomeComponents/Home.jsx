@@ -427,8 +427,8 @@ function Home() {
         </div>
       </div>
 
-      <div className='h-[900px] md:h-[500px] lg:h-[500px] mt-[250px] relative z-10 lg:mt-[130px] bg-fuchsia-600 grid grid-cols-1
-       md:grid-cols-[35%,65%] lg:grid-cols-[35%,65%]'>
+      <div className='h-[1000px] md:h-[450px] lg:h-[450px] mt-[250px] relative z-10 lg:mt-[130px] bg-fuchsia-600 grid grid-cols-1
+       md:grid-cols-[35%,65%] lg:grid-cols-[36%,64%]'>
         
         <div className='bg-white h-[300px] md:h-full'>
           <p className='text-[17px] md:text-[18px] lg:text-[20px] text-[rgb(147,150,154)] ml-[10px] lg:ml-[75px] md:mt-[150px] tracking-wider'>MEET OUR TEAM</p>
@@ -439,11 +439,15 @@ function Home() {
           </button>
         </div>
 
-        <div className='bg-yellow-300'>
-          <div>
-          
+        <div className='bg-white h-[700px] md:h-[450px] lg:h-[450px] grid grid-cols-1 md:grid-cols-2 lg:pr-[85px] pr-[10px] pl-[10px] md:pl-0'>
+
+          <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(179,217,252)] animation-slider'>
+            <div className=''></div>
           </div>
-            
+
+          
+          <div className='bg-gradient-to-l from-[rgb(249,253,255)] to-[rgb(220,235,252)] mt-[50px] md:mt-0 second-slide'></div>
+          
         </div>
 
       </div>

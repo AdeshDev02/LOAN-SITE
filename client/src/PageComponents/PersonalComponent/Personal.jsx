@@ -54,7 +54,9 @@ function Personal() {
       </div>
       <div className='bg-blue-300'>
         <h1 className='text-center md:mt-40 mt-10 font-bold text-xl md:text-2xl mb-5'>Personal Loan</h1>
-        <button className='bg-blue-600 text-[15px] border-[2px] ml-[100px] md:ml-[90px] lg:ml-[210px] w-52 p-3 font-bold rounded-md transition-all duration-700 hover:scale-90 mb-3'>Click to Apply</button>
+        <button className='bg-blue-600 text-[15px] border-[2px] ml-[100px] md:ml-[90px] lg:ml-[210px] w-52 p-3 font-bold rounded-md transition-all duration-700 hover:scale-90 mb-3'>
+          <Link to='/apply'>Click to Apply</Link>
+        </button>
         <h1 className='text-center text-[15px] mb-1'>Have Question?</h1>
         <h1 className='text-center text-[15px] hover:text-blue-700'>
           <Link to='/faq'>Visit our FAQ?</Link>

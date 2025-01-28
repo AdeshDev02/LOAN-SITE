@@ -94,7 +94,7 @@ function ApplyComp3() {
                  <input className='w-[550px] p-7 placeholder:text-[15px] focus:outline-none rounded-md text-[15px] bg-slate-100' type="text"  name="" id="" placeholder='Date of Birth' required/> 
             </div>
             <div className='grid mt-2 mr-3 ml-3'>
-                <h1 className='ml-1'>NUmber of Dependents*</h1> 
+                <h1 className='ml-1'>Number of Dependents*</h1> 
                     <select onChange={holdChange} className='w-[550px] p-6 placeholder:text-[15px] focus:outline-none rounded-md text-[15px] bg-slate-100' type="text"  name="" id="" required>
                     {Gurant.map((depends) => (
                         <option key={depends.value} value={depends.value}>
@@ -157,7 +157,7 @@ function ApplyComp3() {
                  <input className='w-[305px] p-7 placeholder:text-[15px] focus:outline-none rounded-md text-[15px] bg-slate-100' type="text"  name="" id="" placeholder='Date of Birth' required/> 
             </div>
             <div className='grid mt-2 mr-3 ml-3'>
-                <h1 className='ml-1'>NUmber of Dependents*</h1> 
+                <h1 className='ml-1'>Number of Dependents*</h1> 
                     <select onChange={holdChange} className='w-[305px] p-6 placeholder:text-[15px] focus:outline-none rounded-md text-[15px] bg-slate-100' type="text"  name="" id="" required>
                     {Gurant.map((depends) => (
                         <option key={depends.value} value={depends.value}>
@@ -221,7 +221,7 @@ function ApplyComp3() {
                  <input className='w-[360px] p-5 placeholder:text-[10px] focus:outline-none rounded-md text-[13px] bg-slate-100' type="text"  name="" id="" placeholder='Date of Birth' required/> 
             </div>
             <div className='grid mt-2 mr-3 ml-3'>
-                <h1 className='ml-1'>NUmber of Dependents*</h1> 
+                <h1 className='ml-1'>Number of Dependents*</h1> 
                     <select onChange={holdChange} className='w-[360px] p-5 placeholder:text-[10px] focus:outline-none rounded-md text-[13px] bg-slate-100' type="text"  name="" id="" required>
                     {Gurant.map((depends) => (
                         <option key={depends.value} value={depends.value}>

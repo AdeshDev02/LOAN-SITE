@@ -26,7 +26,7 @@ function About() {
   const settings = {
     autoplay: true,
     autoplaySpeed: 5000, 
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -58,10 +58,10 @@ function About() {
             <section className=''>
                 <div className='p-2'>
                 <Slider {...settings}>
-                  <div>
+                  {/* <div>
                     <img className='md:h-[150%] w-[150%] lg:h-[100%] lg:w-[100%] peer' src={team1} />
                     <button className='w-64 bg-slate-50 p-3 lg:text-xl text-xl peer-hover:bottom-2 absolute bottom-[-50px] font-bold transition-all duration-700'>OUR TEAM</button>
-                  </div>
+                  </div> */}
                   <div>
                     <img className='md:h-[150%] w-[150%] lg:h-[100%] lg:w-[100%] peer' src={team2} />
                     <button className='w-64 bg-slate-50 p-3 lg:text-xl text-xl peer-hover:bottom-2 absolute bottom-[-50px] font-bold transition-all duration-700'>OUR TEAM</button>

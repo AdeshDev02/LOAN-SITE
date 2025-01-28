@@ -101,7 +101,7 @@ function Contact() {
                 <div className='h-[80px] rounded-md p-3 bg-slate-200 ml-3 mr-3 flex mb-7'>
                     <img className='h-16' src="https://demo.strongtheme.com/americancredit/wp-content/uploads/sites/4/2021/06/ameioc07.png"/>
                   <h1 className='text-[16px] ml-3 mt-5 mb-3 text-blue-500'>Monday-Thursday</h1>
-                  <p className='text-[16px] font-semibold ml-20 mt-5 lg:ml-[380px] md:ml-[430px] text-blue-500'>9am-9pm</p>        
+                  <p className='text-[16px] font-semibold ml-20 mt-5 lg:ml-[300px] md:ml-[430px] text-blue-500'>9am-9pm</p>        
                 </div>
             </div>
           </main>

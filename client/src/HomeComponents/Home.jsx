@@ -457,7 +457,8 @@ function Home() {
           <p className='text-[17px] md:text-[18px] lg:text-[20px] text-[rgb(147,150,154)] ml-[10px] lg:ml-[75px] md:mt-[100px] tracking-wider'>MEET OUR TEAM</p>
           <p className='text-[rgb(12,51,121)] text-[25px] md:text-[30px] lg:text-[35px] ml-[10px] lg:ml-[75px] font-semibold tracking-wider w-[250px] md:w-[150px] lg:w-[350px]'>Consulting With
           Our Team</p>
-          <button className=' text-white text-[18px] tracking-wider py-[15px] px-[45px] rounded-[8px] mt-[25px] md:mt-[40px]  ml-[10px] lg:ml-[75px] bg-[#266AE1] transform hover:scale-110 transition-all duration-[0.5s]  '> <FontAwesomeIcon icon={faPhone} /> Contact Us
+          <button className=' text-white text-[18px] tracking-wider py-[15px] px-[45px] rounded-[8px] mt-[25px] md:mt-[40px]  ml-[10px] lg:ml-[75px] bg-[#266AE1] transform hover:scale-110 transition-all duration-[0.5s]  '> <FontAwesomeIcon icon={faPhone} /> 
+          <Link to='/contact'>Contact Us</Link>
             
           </button>
         </div>

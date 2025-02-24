@@ -33,7 +33,7 @@ function Accept() {
 
   function cc() {
     if (move == '0px') {
-      setMove('123px')
+      setMove('70px')
       setMoves('0px')
       setMovest('0px')
       setMover("0px")
@@ -49,7 +49,7 @@ function Accept() {
 
   function dd() {
     if (mover == '0px') {
-      setMover('120px')
+      setMover('100px')
       setMove('0px')
       setMovest('0px')
       setMove('0px')
@@ -67,7 +67,7 @@ function Accept() {
 
   function aa() {
     if (moves == '0px') {
-      setMoves('120px')
+      setMoves('100px')
       setMove('0px')
       setMover('0px')
       setMovest('0px')
@@ -84,7 +84,7 @@ function Accept() {
 
   function bb() {
     if (movest == '0px') {
-      setMovest('120px')
+      setMovest('75px')
       setMove('0px')
       setMover('0px')
       setMoves('0px')

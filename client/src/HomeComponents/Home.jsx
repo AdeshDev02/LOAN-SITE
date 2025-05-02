@@ -482,6 +482,8 @@ function Home() {
         </div>
 
       </div>
+
+      <div className='bg-red-700 h-[500px]'></div>
       
 
     </div>
